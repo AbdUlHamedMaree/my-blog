@@ -6,10 +6,13 @@
     "lib": ["dom", "esnext"],
     "strict": true,
     "noEmit": true,
-    "checkJs": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/components": ["./src/components"]
+    }
   },
   "exclude": ["node_modules", "public", ".cache"]
 }
