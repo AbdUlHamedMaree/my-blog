@@ -16,7 +16,7 @@ export type Meta = {
       name: string;
     }
   | {
-      name: string;
+      property: string;
     }
 );
 
